@@ -17,17 +17,15 @@ int GetNumber(string message)
     while (true)
     {
         Console.WriteLine(message);
-        if (int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber != 0)
+        if (int.TryParse(Console.ReadLine(), out resultNumber))
         {
             break;
         }
-        else
-        {
-            Console.WriteLine("Have entered a number or an incorrect number. Please, repeat the enter!");
-        }
+                
     }
     return  resultNumber;
 }
+//Вводим пятизначное число из терминала
 
 double GetCoordinats (double xa, double ya, double za, double xb, double yb, double zb)
 {
@@ -35,15 +33,15 @@ double GetCoordinats (double xa, double ya, double za, double xb, double yb, dou
 
     return lenghtVector;
 }
+//Выводим расстояние между точками
 
-
-Console.Write("Ввод координаты для первой точки");
+Console.WriteLine("Ввод координаты для первой точки");
 
 int x1 = GetNumber("Ввод координаты X для первой точки, которая не равна 0: ");
 int y1 = GetNumber("Ввод координаты Y для первой точки, которая не равна 0: ");
 int z1 = GetNumber("Ввод координаты Z для первой точки, которая не равна 0: ");
 
-Console.Write("Ввод координаты для второй точки");
+Console.WriteLine("Ввод координаты для второй точки");
 
 int x2 = GetNumber("Ввод координаты X для второй точки, которая не равна 0: ");
 int y2 = GetNumber("Ввод координаты Y для второй точки, которая не равна 0: ");

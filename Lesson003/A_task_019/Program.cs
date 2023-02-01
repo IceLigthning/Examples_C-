@@ -25,6 +25,7 @@ int GetNumber(string message)
     }
     return  resultNumber;
 }
+// Вводим число в программу!
 
 int GetPolinomial(int number)
 {
@@ -34,11 +35,6 @@ int GetPolinomial(int number)
     int secondNumber = (number - (number/100)*100) / 10;
     int firstNumber = (number - (number/10)*10);
     
-    Console.WriteLine($"5 - {fifthNumber}");
-    Console.WriteLine($"4 - {fourthNumber}");
-    Console.WriteLine($"2 - {secondNumber}");
-    Console.WriteLine($"1 - {firstNumber}");
-
     if (fifthNumber == firstNumber && fourthNumber == secondNumber)
     {
         Console.WriteLine("The number is a polonomial!");
@@ -51,6 +47,7 @@ int GetPolinomial(int number)
     return number; 
 
 }
+//Находим полином!
 
 int x = GetNumber($"Enter a number!");
 // Необходимое нам число!
