@@ -11,7 +11,6 @@
 int GetNumber(string message)
 {
     int resultNumber = 0;
-
     while (true)
     {
         Console.WriteLine(message);
@@ -19,11 +18,9 @@ int GetNumber(string message)
         {
             break;
         }
-
         else
         {
             Console.WriteLine("Have entered a number or an incorrect number. Please, repeat the enter!");
-            break;
         }
     }
     return  resultNumber;
