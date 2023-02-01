@@ -8,25 +8,63 @@
 
 */
 
-int GetSizenumber(int number)
+int GetNumber(string message)
 {
-    int count = 0;
+    int resultNumber = 0;
 
-    while ( number != 1 )
+    while (true)
     {
-        number = number / 10;
-        count ++;
+        Console.WriteLine(message);
+        if (int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber != 0)
+        {
+            break;
+        }
+
+        else
+        {
+            Console.WriteLine("Have entered a number or an incorrect number. Please, repeat the enter!");
+            break;
+        }
+    }
+    return  resultNumber;
+}
+
+int GetPolinomial(int number)
+{
+    int fifthNumber = number / 10000;
+    int fourthNumber = number / 1000 - fifthNumber*10;
+
+    int secondNumber = (number - (number/100)*100) / 10;
+    int firstNumber = (number - (number/10)*10);
+    
+    Console.WriteLine($"5 - {fifthNumber}");
+    Console.WriteLine($"4 - {fourthNumber}");
+    Console.WriteLine($"2 - {secondNumber}");
+    Console.WriteLine($"1 - {firstNumber}");
+
+    if (fifthNumber == firstNumber && fourthNumber == secondNumber)
+    {
+        Console.WriteLine("The number is a polonomial!");
     }
 
-    return count;
+    else
+    {
+        Console.WriteLine("The number isn't a polonomial!");
+    }
+    return number; 
 
 }
 
-string inputNumber = Console.ReadLine();
-int inputCount = Convert.ToInt32(inputNumber);
+int x = GetNumber($"Enter a number!");
+// Необходимое нам число!
+Console.WriteLine(GetPolinomial(x));
 
-int a = GetSizenumber(inputCount);
 
-Console.Write(a);
+
+
+
+
+
+
 
 
