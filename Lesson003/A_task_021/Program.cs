@@ -21,6 +21,10 @@ int GetNumber(string message)
         {
             break;
         }
+        else
+        {
+            Console.WriteLine("Have entered a number or an incorrect number. Please, repeat the enter!");
+        }
                 
     }
     return  resultNumber;
