@@ -49,7 +49,7 @@ int GetPolinomial(int number)
 }
 //Находим полином!
 
-int x = GetNumber($"Enter a number!");
+int x = GetNumber($"Enter a five-digit number!");
 // Необходимое нам число!
 Console.WriteLine(GetPolinomial(x));
 

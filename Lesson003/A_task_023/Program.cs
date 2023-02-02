@@ -39,7 +39,6 @@ void FillArray(int[] collection)
         collection[index] = index*index*index;
         index++;
     }
-
 }
 // Составляем таблицу кубов!
 
@@ -53,7 +52,6 @@ void PrintArray(int[] col)
         position++;
     }
 }
-
 
 int N = GetNumber("Enter a number: ") + 1;
 int[ ]array = new int[N];
