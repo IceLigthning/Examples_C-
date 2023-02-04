@@ -3,3 +3,13 @@ C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson00
 C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\A_task_006.AssemblyInfoInputs.cache
 C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\A_task_006.AssemblyInfo.cs
 C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\A_task_006.csproj.CoreCompileInputs.cache
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\bin\Debug\net6.0\A_task_006.exe
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\bin\Debug\net6.0\A_task_006.deps.json
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\bin\Debug\net6.0\A_task_006.runtimeconfig.json
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\bin\Debug\net6.0\A_task_006.dll
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\bin\Debug\net6.0\A_task_006.pdb
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\A_task_006.dll
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\refint\A_task_006.dll
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\A_task_006.pdb
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\A_task_006.genruntimeconfig.cache
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Examles_C#\Lesson001\A_task_006\obj\Debug\net6.0\ref\A_task_006.dll
