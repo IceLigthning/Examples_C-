@@ -8,10 +8,16 @@
 
 */
 
+Console.Clear();
+
+
+Console.WriteLine("Enter some numbers into an array!");
+
 // Вводим число.
 int GetNumber()
 {
     int resultNumber = 0;
+
     Console.Write("Enter a number: ");
 
     while(true)
@@ -26,33 +32,48 @@ int GetNumber()
         {
             Console.Write("The number is incorrect! Enter a correct number: ");
         }
+        
     }
     return resultNumber;
 
 }
 
+// Выводим пустой массив.
 void PrintArr(int[] col)
 {
     int count = col.Length;
+
     int position = 0;
+
     while (position < count)
-    {
+    {        
         Console.Write($" {col[position]}");
+               
         position++;
     }
 }
 
 
-int arg = GetNumber();
+int[] arr = new int[8]; // Объявляем массив чисел
 
-int[] arr = new int[8];
+int sizeArray = arr.Length; // Выщитываем длину массива
 
-int sizeArray = arr.Length;
+Console.WriteLine();
 
+// Через цикл записываем числа в массив!
 for (int i = 0; i < sizeArray; i++)
 {
-    arr[i] = arg;
+    arr[i] = GetNumber(); 
     
 }
 
+Console.WriteLine();
+
+// Печатаем значения массива
+
+
+Console.Write("The array of numbers = [");
+
 PrintArr(arr);
+
+Console.Write(" ]");

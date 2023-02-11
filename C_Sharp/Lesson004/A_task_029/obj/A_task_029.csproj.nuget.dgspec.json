@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Examles_C#\\Lesson004\\A_task_029\\A_task_029.csproj": {}
+    "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Education_GeekBrains\\C_Sharp\\Lesson004\\A_task_029\\A_task_029.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Examles_C#\\Lesson004\\A_task_029\\A_task_029.csproj": {
+    "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Education_GeekBrains\\C_Sharp\\Lesson004\\A_task_029\\A_task_029.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Examles_C#\\Lesson004\\A_task_029\\A_task_029.csproj",
+        "projectUniqueName": "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Education_GeekBrains\\C_Sharp\\Lesson004\\A_task_029\\A_task_029.csproj",
         "projectName": "A_task_029",
-        "projectPath": "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Examles_C#\\Lesson004\\A_task_029\\A_task_029.csproj",
+        "projectPath": "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Education_GeekBrains\\C_Sharp\\Lesson004\\A_task_029\\A_task_029.csproj",
         "packagesPath": "C:\\Users\\anluz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Examles_C#\\Lesson004\\A_task_029\\obj\\",
+        "outputPath": "C:\\Users\\anluz\\OneDrive\\Рабочий стол\\Education_C#\\Education_GeekBrains\\C_Sharp\\Lesson004\\A_task_029\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anluz\\AppData\\Roaming\\NuGet\\NuGet.Config"
