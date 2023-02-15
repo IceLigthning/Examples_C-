@@ -45,6 +45,7 @@ else
 {
     Console.WriteLine($"Max = {max}");
 }
+
 else
 {
     max = thirdNumber;

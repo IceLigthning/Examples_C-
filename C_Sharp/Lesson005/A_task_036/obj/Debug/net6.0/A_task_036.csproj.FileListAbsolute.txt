@@ -1,0 +1,15 @@
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.csproj.AssemblyReference.cache
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.AssemblyInfoInputs.cache
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.AssemblyInfo.cs
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.csproj.CoreCompileInputs.cache
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\bin\Debug\net6.0\A_task_036.exe
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\bin\Debug\net6.0\A_task_036.deps.json
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\bin\Debug\net6.0\A_task_036.runtimeconfig.json
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\bin\Debug\net6.0\A_task_036.dll
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\bin\Debug\net6.0\A_task_036.pdb
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.dll
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\refint\A_task_036.dll
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.pdb
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\A_task_036.genruntimeconfig.cache
+C:\Users\anluz\OneDrive\Рабочий стол\Education_C#\Education_GeekBrains\C_Sharp\Lesson005\A_task_036\obj\Debug\net6.0\ref\A_task_036.dll
