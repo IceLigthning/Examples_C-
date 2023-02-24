@@ -12,10 +12,10 @@
 
 */
 
+
 Console.Clear();
 
 //Метод для ввода числа с консоли:
-
 int GetNumber(string mess)
 {
     int resultNumber = 0;
@@ -24,7 +24,7 @@ int GetNumber(string mess)
     {
         Console.WriteLine(mess);
 
-        if(int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber > 0)
+        if(int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber >= 0)
         {
             break;
         }
@@ -40,21 +40,21 @@ int GetNumber(string mess)
 }
 
 // Метод заполнения массива:
-double[,] GetMatrix(int rank, int colum)
+double[,] GetMatrix()
 {
-    double[,] matr= new double[rank, colum];
+    double[,] matr= new double[3, 4];
     Random value = new Random();
 
-    for(int i = 0; i < rank; i++)
+    for(int i = 0; i < matr.GetLength(0); i++)
     {
-        for(int j = 0; j < colum; j++)
+        for(int j = 0; j < matr.GetLength(1); j++)
         {
-            matr[i,j] = value.Next(-10, 11) + value.NextDouble();
+            matr[i,j] = value.Next(0, 11);
         }
 
     }
-
-    return matr;
+   
+   return matr;
 
 }
 
@@ -66,7 +66,7 @@ void GetPrint(double[,] matr)
     {
         for(int j = 0; j < matr.GetLength(1); j++)
         {
-            Console.Write($"{matr[i,j]} ");
+            Console.Write($" {matr[i,j]}  ");
         }
 
         Console.WriteLine();
@@ -74,9 +74,41 @@ void GetPrint(double[,] matr)
 
 }
 
-// Задаём размер массива:
-int ranks = GetNumber("Введите число строк в массиве: ");
-int columns = GetNumber("Введите число столбцов в массиве: ");
-double[,] matrix = GetMatrix(ranks, columns);
+void GetAverage(double[,] matr)
+{
+    double sum = 0;
+    int sizeI = matr.GetLength(0);
+    int sizeJ = matr.GetLength(1);
 
+    
+    for(int j = 0; j < sizeJ; j++)
+    {
+        
+        for(int i = 0; i < sizeI; i++)
+        {
+            sum += matr[i, j];
+            
+        }
+        Console.Write($" {(sum).ToString("0.00")}; ");
+
+        sum *= 0; // Домножаем сумму значений стольбцов в массиве на 0.
+                
+    }
+    
+}
+
+
+// заполняем масссив
+double[,] matrix= GetMatrix();
 GetPrint(matrix);
+
+Console.WriteLine("");
+
+Console.Write("Среднее арифметическое значение стольбцов = [");
+GetAverage(matrix);
+Console.Write("]");
+
+
+
+
+
