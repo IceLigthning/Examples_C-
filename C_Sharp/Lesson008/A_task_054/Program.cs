@@ -80,39 +80,28 @@ void GetPrint(int[,] matr)
 void GetChangeMatrix(int[,] matr)
 {
     
-    
-    
-    int vaсuum = 0;
-    
-    for(int i = 0; i < matr.GetLength(0); i++)
+    int vacuum = 0;
+    int i = 0;
+    int j = 0;
+    int k = 0;
+
+    for(i = 0; i < matr.GetLength(0); i++)
     {
-        for(int j = 0; j < matr.GetLength(1)-1; j++)
+        for(j = (matr.GetLength(1) - 1); j >= 0; j--)
         {
-
-            int max = 0;
-            int k = j;
-            while(k < matr.GetLength(1)-1)
+            for(k = 0; k < j; k++)
             {
-
-                if(matr[i, k] > max)
+                if(matr[i, k] < matr[i, k + 1])
                 {
-                    max = matr[i, k];
+                    vacuum = matr[i, k];
+                    matr[i, k] = matr[i, k + 1];
+                    matr[i, k + 1] = vacuum;
 
                 }
-                k++;
-                Console.WriteLine(max);
-                
             }
-            
-
-            
-        }
-
+        } 
     }
-    
 }
-
-
 
 // Задаём размер массива:
 int ranks = GetNumber("Введите число строк в массиве: ");

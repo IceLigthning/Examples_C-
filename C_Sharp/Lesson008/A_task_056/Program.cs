@@ -77,7 +77,7 @@ void GetPrint(int[,] matr)
 
 }
 
-int GetMaxString(int[,] matr)
+int GetMaxSumForString(int[,] matr)
 {
     int sum = 0;
     for(int i = 0; i < matr.GetLength(0); i++)
@@ -108,6 +108,4 @@ int[,] matrix = GetMatrix(ranks, columns);
 
 GetPrint(matrix);
 
-GetMaxString(matrix);
-Console.WriteLine();
-GetPrint(matrix);
+GetMaxSumForString(matrix);
