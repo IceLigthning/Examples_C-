@@ -77,27 +77,65 @@ void GetPrint(int[,] matr)
 
 }
 
-int GetMaxSumForString(int[,] matr)
+void GetMaxSumForString(int[,] matr)
 {
+    int stolbDlin = matr.GetLength(0);
+    int strokDlin = matr.GetLength(1);
+
+    int[] arr = new int[stolbDlin];
+
     int sum = 0;
-    for(int i = 0; i < matr.GetLength(0); i++)
+    int minSum = 0;
+    int num = 0;
+    
+
+    for(int i = 0; i < stolbDlin; i++)
     {
 
-        for(int j = 0; j < matr.GetLength(1)-1; j++)
+        for(int j = 0; j < strokDlin-1; j++)
         {
 
             sum = sum + matr[i,j];
 
-
         }
-        return sum;
-        sum *=0;
-
         
+        arr[i] = sum;
 
+        Console.WriteLine($"Сумма строки № {i+1} = {arr[i]}");
+        sum *=0;
+    
+    }
+
+    //Находим строку с минимальной суммой элементов!
+    for(int i = 0; i < stolbDlin-1; i++)
+    {
+        if(arr[i] < arr[i+1])
+        {
+            minSum = arr[i];
+        }
+        else
+        {
+            minSum = arr[i+1];
+        }
+        
     }
     
+    // Вывод номер строки с мин суммой элементов!
+    for(int i = 0; i < stolbDlin; i++)
+    {
+        if(minSum == arr[i])
+        {
+            num = i+1;
+
+        }
+    }
+    Console.WriteLine("");
+    Console.WriteLine($"Строка с номером {num} - строка с минимальной суммой, сумма которой равна {minSum}!");
+
+     
+
 }
+
 
 
 
@@ -107,5 +145,5 @@ int columns = GetNumber("Введите число столбцов в масс�
 int[,] matrix = GetMatrix(ranks, columns);
 
 GetPrint(matrix);
-
+Console.WriteLine("");
 GetMaxSumForString(matrix);
