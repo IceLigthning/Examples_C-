@@ -27,7 +27,7 @@ int GetNumber(string mess)
     {
         Console.WriteLine(mess);
 
-        if(int.TryParse(Console.ReadLine(), out resultNumber) && resultNumber > 0)
+        if(int.TryParse(Console.ReadLine(), out resultNumber))
         {
             Console.WriteLine("");
             break;
