@@ -51,7 +51,7 @@ int[,] GetMatrix(int rank, int colum)
     {
         for(int j = 0; j < colum; j++)
         {
-            matr[i,j] = value.Next(0, 5);
+            matr[i,j] = value.Next(1, 8);
         }
 
     }
@@ -78,29 +78,37 @@ void GetPrint(int[,] matr)
 
 void GetChangeMatrix(int[,] matrOne, int[,] matrTwo)
 {
-    int sum = 0;
+    int matrOneA = matrOne.GetLength(0);  // Длина столбца 1 матр.
+    int matrOneB = matrOne.GetLength(1);  // Длина строки  1 матр.
+    int matrTwoA = matrOne.GetLength(0);    // Длина столбца 2 матр.
+    int matrTwoB = matrOne.GetLength(1);    // Длина строки  2 матр.
 
-    if(matrOne.GetLength(1) == matrOne.GetLength(0))
+    if(matrOneB  == matrTwoA)
     {
 
-        for(int j = 0; j < matrOne.GetLength(1); j++)
+        int[,] matrix= new int[matrOneB , matrTwoA];
+
+        // Идём по строке
+        for(int i = 0; i < matrOneA; i++)
         {
 
-            for(int i = 0; i < matrOne.GetLength(0); i++)
+            for(int j = 0; i < matrTwoB; j++)
             {
-                sum = sum + matrOne[i, j] * matrTwo[j, i];
-                
-            }
-            Console.Write($"{sum} ");
 
-            Console.WriteLine();
+                for(int k = 0; k < matrOneB; k++)
+                {
 
+                    matrix[i,j] = matrix[i,j] + matrOne[i,k] * matrTwo[k,j];
+
+                    Console.Write($"{matrix[i,j]} ");                
+
+                }
+                Console.WriteLine();
         }
 
-
-
-
-
+           
+    }
+    
 
     }
     else
@@ -126,7 +134,7 @@ int[,] matrixSecond = GetMatrix(ranksSecond, columnsSecond);
 GetPrint(matrixFirst);
 Console.WriteLine();
 
-GetPrint(matrixSecond );
+GetPrint(matrixSecond);
 Console.WriteLine();
 
 
