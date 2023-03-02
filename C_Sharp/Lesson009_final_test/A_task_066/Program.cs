@@ -48,6 +48,7 @@ int GetNumber(string mess)
             Console.WriteLine("");
             break;
         }
+        
         else
         {
             Console.Write("The number is incorrect! Enter a correct number: ");
