@@ -1,23 +1,17 @@
-/*
- * 
- * Реализовать простой калькулятор
- * 
- */
-
 import java.util.Scanner; 
 
-public class A_task_003 {
+
+public class A_task_test {
 
     static public void main(String[] args) {
         java.util.Scanner iScan = new Scanner(System.in);
 
-        System.out.printf("Ведите первое число: ");
-        int first = iScan.nextInt();
+        
+        
         System.out.printf("Введите арифметический символ: ");
         String sign = iScan.nextLine();
-        System.out.printf("Ведите второе число: ");
-        int second = iScan.nextInt();
-
+        
+        
         iScan.close();
 
         String mark1 = "+";
@@ -25,28 +19,21 @@ public class A_task_003 {
         String mark3 = "/";
         String mark4 = "*";
 
-                
         if (sign == mark1 ){
-            System.out.println(first + second);
+            System.out.println("A");
         }
         else if(sign == mark2){
-            System.out.println(first - second);
+            System.out.println("V");
         }
         else if(sign == mark3){
-            if (second == 0) {
-                System.out.println("На 0 не делим!");
-            }
-            else {
-                System.out.println(first / second);
-            }
+            System.out.println("C");
         }
         else if(sign == mark4){
-            System.out.println(first * second);
+            System.out.println("D");
         }
         else
         {
             System.out.println("Вы не ввели арифметический символ или ввели его не привильно!");
         }
-        
     }
 }
