@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-12T14:52:48.163240100Z</date>
+  <millis>1683903168163</millis>
+  <nanos>240100</nanos>
+  <sequence>0</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.262698900Z</date>
+  <millis>1683903168262</millis>
+  <nanos>698900</nanos>
+  <sequence>1</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.264699900Z</date>
+  <millis>1683903168264</millis>
+  <nanos>699900</nanos>
+  <sequence>2</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.267703100Z</date>
+  <millis>1683903168267</millis>
+  <nanos>703100</nanos>
+  <sequence>3</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.270705500Z</date>
+  <millis>1683903168270</millis>
+  <nanos>705500</nanos>
+  <sequence>4</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.273707400Z</date>
+  <millis>1683903168273</millis>
+  <nanos>707400</nanos>
+  <sequence>5</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.277709300Z</date>
+  <millis>1683903168277</millis>
+  <nanos>709300</nanos>
+  <sequence>6</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.283714500Z</date>
+  <millis>1683903168283</millis>
+  <nanos>714500</nanos>
+  <sequence>7</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.289718300Z</date>
+  <millis>1683903168289</millis>
+  <nanos>718300</nanos>
+  <sequence>8</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.291719700Z</date>
+  <millis>1683903168291</millis>
+  <nanos>719700</nanos>
+  <sequence>9</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.293720700Z</date>
+  <millis>1683903168293</millis>
+  <nanos>720700</nanos>
+  <sequence>10</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.294721200Z</date>
+  <millis>1683903168294</millis>
+  <nanos>721200</nanos>
+  <sequence>11</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.295722100Z</date>
+  <millis>1683903168295</millis>
+  <nanos>722100</nanos>
+  <sequence>12</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.297723500Z</date>
+  <millis>1683903168297</millis>
+  <nanos>723500</nanos>
+  <sequence>13</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.298724500Z</date>
+  <millis>1683903168298</millis>
+  <nanos>724500</nanos>
+  <sequence>14</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.304728700Z</date>
+  <millis>1683903168304</millis>
+  <nanos>728700</nanos>
+  <sequence>15</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.306730100Z</date>
+  <millis>1683903168306</millis>
+  <nanos>730100</nanos>
+  <sequence>16</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.307730600Z</date>
+  <millis>1683903168307</millis>
+  <nanos>730600</nanos>
+  <sequence>17</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.309732500Z</date>
+  <millis>1683903168309</millis>
+  <nanos>732500</nanos>
+  <sequence>18</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 97</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.311733900Z</date>
+  <millis>1683903168311</millis>
+  <nanos>733900</nanos>
+  <sequence>19</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.313735300Z</date>
+  <millis>1683903168313</millis>
+  <nanos>735300</nanos>
+  <sequence>20</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.315736800Z</date>
+  <millis>1683903168315</millis>
+  <nanos>736800</nanos>
+  <sequence>21</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.316737700Z</date>
+  <millis>1683903168316</millis>
+  <nanos>737700</nanos>
+  <sequence>22</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.321741Z</date>
+  <millis>1683903168321</millis>
+  <nanos>741000</nanos>
+  <sequence>23</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.323742400Z</date>
+  <millis>1683903168323</millis>
+  <nanos>742400</nanos>
+  <sequence>24</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.327745300Z</date>
+  <millis>1683903168327</millis>
+  <nanos>745300</nanos>
+  <sequence>25</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.331749500Z</date>
+  <millis>1683903168331</millis>
+  <nanos>749500</nanos>
+  <sequence>26</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.333750Z</date>
+  <millis>1683903168333</millis>
+  <nanos>750000</nanos>
+  <sequence>27</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.336752300Z</date>
+  <millis>1683903168336</millis>
+  <nanos>752300</nanos>
+  <sequence>28</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.337752400Z</date>
+  <millis>1683903168337</millis>
+  <nanos>752400</nanos>
+  <sequence>29</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.339753400Z</date>
+  <millis>1683903168339</millis>
+  <nanos>753400</nanos>
+  <sequence>30</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.341755200Z</date>
+  <millis>1683903168341</millis>
+  <nanos>755200</nanos>
+  <sequence>31</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.342756200Z</date>
+  <millis>1683903168342</millis>
+  <nanos>756200</nanos>
+  <sequence>32</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 94</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.346759Z</date>
+  <millis>1683903168346</millis>
+  <nanos>759000</nanos>
+  <sequence>33</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 94</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.348760400Z</date>
+  <millis>1683903168348</millis>
+  <nanos>760400</nanos>
+  <sequence>34</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.352763300Z</date>
+  <millis>1683903168352</millis>
+  <nanos>763300</nanos>
+  <sequence>35</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.355765200Z</date>
+  <millis>1683903168355</millis>
+  <nanos>765200</nanos>
+  <sequence>36</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.359768Z</date>
+  <millis>1683903168359</millis>
+  <nanos>768000</nanos>
+  <sequence>37</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.360768500Z</date>
+  <millis>1683903168360</millis>
+  <nanos>768500</nanos>
+  <sequence>38</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.362769900Z</date>
+  <millis>1683903168362</millis>
+  <nanos>769900</nanos>
+  <sequence>39</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.363770900Z</date>
+  <millis>1683903168363</millis>
+  <nanos>770900</nanos>
+  <sequence>40</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.364771300Z</date>
+  <millis>1683903168364</millis>
+  <nanos>771300</nanos>
+  <sequence>41</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.365771800Z</date>
+  <millis>1683903168365</millis>
+  <nanos>771800</nanos>
+  <sequence>42</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.367773700Z</date>
+  <millis>1683903168367</millis>
+  <nanos>773700</nanos>
+  <sequence>43</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.369774700Z</date>
+  <millis>1683903168369</millis>
+  <nanos>774700</nanos>
+  <sequence>44</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.371776100Z</date>
+  <millis>1683903168371</millis>
+  <nanos>776100</nanos>
+  <sequence>45</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 65</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.372777500Z</date>
+  <millis>1683903168372</millis>
+  <nanos>777500</nanos>
+  <sequence>46</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.373780200Z</date>
+  <millis>1683903168373</millis>
+  <nanos>780200</nanos>
+  <sequence>47</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.375778900Z</date>
+  <millis>1683903168375</millis>
+  <nanos>778900</nanos>
+  <sequence>48</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.382784600Z</date>
+  <millis>1683903168382</millis>
+  <nanos>784600</nanos>
+  <sequence>49</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.384785100Z</date>
+  <millis>1683903168384</millis>
+  <nanos>785100</nanos>
+  <sequence>50</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.386787Z</date>
+  <millis>1683903168386</millis>
+  <nanos>787000</nanos>
+  <sequence>51</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.389789300Z</date>
+  <millis>1683903168389</millis>
+  <nanos>789300</nanos>
+  <sequence>52</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.391791600Z</date>
+  <millis>1683903168391</millis>
+  <nanos>791600</nanos>
+  <sequence>53</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.392792100Z</date>
+  <millis>1683903168392</millis>
+  <nanos>792100</nanos>
+  <sequence>54</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.394792700Z</date>
+  <millis>1683903168394</millis>
+  <nanos>792700</nanos>
+  <sequence>55</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.396794100Z</date>
+  <millis>1683903168396</millis>
+  <nanos>794100</nanos>
+  <sequence>56</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 63</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.397796800Z</date>
+  <millis>1683903168397</millis>
+  <nanos>796800</nanos>
+  <sequence>57</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.398795100Z</date>
+  <millis>1683903168398</millis>
+  <nanos>795100</nanos>
+  <sequence>58</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.398795100Z</date>
+  <millis>1683903168398</millis>
+  <nanos>795100</nanos>
+  <sequence>59</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.399796Z</date>
+  <millis>1683903168399</millis>
+  <nanos>796000</nanos>
+  <sequence>60</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.400796500Z</date>
+  <millis>1683903168400</millis>
+  <nanos>796500</nanos>
+  <sequence>61</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.401800100Z</date>
+  <millis>1683903168401</millis>
+  <nanos>800100</nanos>
+  <sequence>62</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.402798300Z</date>
+  <millis>1683903168402</millis>
+  <nanos>798300</nanos>
+  <sequence>63</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.408802600Z</date>
+  <millis>1683903168408</millis>
+  <nanos>802600</nanos>
+  <sequence>64</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.410804Z</date>
+  <millis>1683903168410</millis>
+  <nanos>804000</nanos>
+  <sequence>65</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 61</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.411805400Z</date>
+  <millis>1683903168411</millis>
+  <nanos>805400</nanos>
+  <sequence>66</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.415808700Z</date>
+  <millis>1683903168415</millis>
+  <nanos>808700</nanos>
+  <sequence>67</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.417809200Z</date>
+  <millis>1683903168417</millis>
+  <nanos>809200</nanos>
+  <sequence>68</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.420811100Z</date>
+  <millis>1683903168420</millis>
+  <nanos>811100</nanos>
+  <sequence>69</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.425814900Z</date>
+  <millis>1683903168425</millis>
+  <nanos>814900</nanos>
+  <sequence>70</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.440825300Z</date>
+  <millis>1683903168440</millis>
+  <nanos>825300</nanos>
+  <sequence>71</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.442826800Z</date>
+  <millis>1683903168442</millis>
+  <nanos>826800</nanos>
+  <sequence>72</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 52</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.443827700Z</date>
+  <millis>1683903168443</millis>
+  <nanos>827700</nanos>
+  <sequence>73</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.444828600Z</date>
+  <millis>1683903168444</millis>
+  <nanos>828600</nanos>
+  <sequence>74</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.445829600Z</date>
+  <millis>1683903168445</millis>
+  <nanos>829600</nanos>
+  <sequence>75</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.447830500Z</date>
+  <millis>1683903168447</millis>
+  <nanos>830500</nanos>
+  <sequence>76</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.449832Z</date>
+  <millis>1683903168449</millis>
+  <nanos>832000</nanos>
+  <sequence>77</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.450833300Z</date>
+  <millis>1683903168450</millis>
+  <nanos>833300</nanos>
+  <sequence>78</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.452833400Z</date>
+  <millis>1683903168452</millis>
+  <nanos>833400</nanos>
+  <sequence>79</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 45</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.453834400Z</date>
+  <millis>1683903168453</millis>
+  <nanos>834400</nanos>
+  <sequence>80</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 29</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.455836200Z</date>
+  <millis>1683903168455</millis>
+  <nanos>836200</nanos>
+  <sequence>81</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 29</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.459839500Z</date>
+  <millis>1683903168459</millis>
+  <nanos>839500</nanos>
+  <sequence>82</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.460839500Z</date>
+  <millis>1683903168460</millis>
+  <nanos>839500</nanos>
+  <sequence>83</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.461840Z</date>
+  <millis>1683903168461</millis>
+  <nanos>840000</nanos>
+  <sequence>84</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.464841900Z</date>
+  <millis>1683903168464</millis>
+  <nanos>841900</nanos>
+  <sequence>85</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.465842900Z</date>
+  <millis>1683903168465</millis>
+  <nanos>842900</nanos>
+  <sequence>86</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 14</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.467844700Z</date>
+  <millis>1683903168467</millis>
+  <nanos>844700</nanos>
+  <sequence>87</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 29</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.468845200Z</date>
+  <millis>1683903168468</millis>
+  <nanos>845200</nanos>
+  <sequence>88</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 38</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.470846700Z</date>
+  <millis>1683903168470</millis>
+  <nanos>846700</nanos>
+  <sequence>89</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.472849Z</date>
+  <millis>1683903168472</millis>
+  <nanos>849000</nanos>
+  <sequence>90</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 8</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.474849500Z</date>
+  <millis>1683903168474</millis>
+  <nanos>849500</nanos>
+  <sequence>91</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 29</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.475850400Z</date>
+  <millis>1683903168475</millis>
+  <nanos>850400</nanos>
+  <sequence>92</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 29</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.477851400Z</date>
+  <millis>1683903168477</millis>
+  <nanos>851400</nanos>
+  <sequence>93</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 41</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.481855600Z</date>
+  <millis>1683903168481</millis>
+  <nanos>855600</nanos>
+  <sequence>94</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 29</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.484857Z</date>
+  <millis>1683903168484</millis>
+  <nanos>857000</nanos>
+  <sequence>95</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 38</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.493862800Z</date>
+  <millis>1683903168493</millis>
+  <nanos>862800</nanos>
+  <sequence>96</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 24</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.495865100Z</date>
+  <millis>1683903168495</millis>
+  <nanos>865100</nanos>
+  <sequence>97</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 14</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.496865600Z</date>
+  <millis>1683903168496</millis>
+  <nanos>865600</nanos>
+  <sequence>98</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 8</message>
+</record>
+<record>
+  <date>2023-05-12T14:52:48.497866500Z</date>
+  <millis>1683903168497</millis>
+  <nanos>866500</nanos>
+  <sequence>99</sequence>
+  <logger>Education_GeekBrains.Java.Lesson002.A_task_022</logger>
+  <level>INFO</level>
+  <class>Education_GeekBrains.Java.Lesson002.A_task_022</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello logging: 7</message>
+</record>
+</log>
