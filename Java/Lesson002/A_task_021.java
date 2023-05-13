@@ -1,7 +1,7 @@
 /*
  * 
- * В файле содержится строка с исходными данными в такой форме:
- * 
+В файле содержится строка с исходными данными в такой форме:
+ 
 {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
 
 Требуется на её основе построить и вывести на экран новую строку, в форме SQL запроса:
@@ -22,22 +22,36 @@ import java.io.IOException;
 
 
 public class A_task_021 {
-    static public void main(String[] args) throws Exception {
-        FileReader reader = null;
-        try {
-            
-            reader = new FileReader("person.txt");
-        
-        } 
-        catch (IOException ex) {
-            System.out.println(ex.getMessage());
-        }
-        finally {
-            if (reader != null) {
-                reader.close();
-            }
+    static public void main(String[] args) throws IOException {
 
+        // Читаем из файла и запысываем в StringBuilder sb
+        StringBuilder sb = new StringBuilder();
+        try (BufferedReader br = new BufferedReader(new FileReader("ForTask021.json"))) {
+            String data;
+            while ((data = br.readLine()) != null) {
+                sb.append(data);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
+        Map<String, String> dictionary = new HashMap<>();
+        //Парсим строку, убираем лишние символы и записываем данные в словарь
+        String[] keys = sb.toString().replace("{", "").replace("\"", "").
+                replace("}", "").replaceAll("\\s", "").split(",");
+        for (String data : keys) {
+            String[] keyValue = data.split(":");
+            String key = keyValue[0];
+            String value = keyValue[1];
+            dictionary.put(key, value);
+        }
+        System.out.println(dictionary);
+        // Вывод из словаря в вид согласно ТЗ
+        String name = dictionary.get("name");
+        String country = dictionary.get("country");
+        String city = dictionary.get("city");
+        System.out.printf("SELECT * FROM students WHERE name = %s AND country = %s AND city = %s", name,
+            country, city);       
 
     }
 }

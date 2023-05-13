@@ -11,28 +11,27 @@ public class A_task_003 {
     static public void main(String[] args) {
         java.util.Scanner iScan = new Scanner(System.in);
 
-        System.out.printf("Ведите первое число: ");
+        System.out.printf("Ведите первое число:\n ");
         int first = iScan.nextInt();
-        System.out.printf("Введите арифметический символ: ");
+        //System.out.printf("Если хотите выполнить сложение введите 1:\n ");
+        //System.out.printf("Если хотите выполнить вычетание введите 2:\n ");
+        //System.out.printf("Если хотите выполнить деление введите 3:\n ");
+        //System.out.printf("Если хотите выполнить умножение введите 4:\n ");
+        System.out.printf("Введите арифметическую операцию:\n ");
         String sign = iScan.nextLine();
-        System.out.printf("Ведите второе число: ");
+        System.out.printf("Ведите второе число:\n ");
         int second = iScan.nextInt();
 
         iScan.close();
 
-        String mark1 = "+";
-        String mark2 = "-";
-        String mark3 = "/";
-        String mark4 = "*";
-
-                
-        if (sign == mark1 ){
+                        
+        if (sign == "+"){
             System.out.println(first + second);
         }
-        else if(sign == mark2){
+        else if(sign == "-"){
             System.out.println(first - second);
         }
-        else if(sign == mark3){
+        else if(sign == "/"){
             if (second == 0) {
                 System.out.println("На 0 не делим!");
             }
@@ -40,7 +39,7 @@ public class A_task_003 {
                 System.out.println(first / second);
             }
         }
-        else if(sign == mark4){
+        else if(sign == "*"){
             System.out.println(first * second);
         }
         else
