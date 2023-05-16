@@ -13,13 +13,13 @@ SELECT * FROM students WHERE name = "Ivanov" AND country = "Russia" AND city = "
  * 
  */
 
-package Education_GeekBrains.Java.Lesson002;
+ package Education_GeekBrains.Java.Lesson002;
 
-//import java.io.FileWriter;
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
-
+import java.util.HashMap;
+import java.util.Map;
 
 public class A_task_021 {
     static public void main(String[] args) throws IOException {
