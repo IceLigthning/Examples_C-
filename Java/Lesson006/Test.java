@@ -16,6 +16,7 @@ package Education_GeekBrains.Java.Lesson006;
 
 import java.util.*;
 
+
 public class Test {
     public static void main(String[] args) {
         HashSet<NoteBook> shop = new HashSet<>();
