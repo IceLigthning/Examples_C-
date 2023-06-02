@@ -11,6 +11,7 @@ public class NoteBook {
     private String mySystem;
     private String color;
 
+    
     public NoteBook(String brand, String model, String size, String operativeMemory, String hardDisk, String system, String color) {
         this.brand = brand;
         this.model = model;
