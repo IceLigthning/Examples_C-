@@ -1,0 +1,38 @@
+h1{
+    color: #ed7272d0;
+    font-family: 'Teddy Bear', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+h2{
+    color: aquamarine;
+}
+a{
+    color: rgb(227, 255, 127);
+}
+a:hover{
+    color: rgb(255, 47, 47) ;
+    /*При выделении ссылки отображается другим цветом*/
+}
+img{
+    width: 400px;
+    margin-left: 50px;
+}
+.bigtext{
+    font-size: 1.23rem;
+    font-family: 'Teddy Bear', sans-serif;
+}
+@font-face {
+	font-family: 'Teddy Bear'; /*Прописываем название шрифта*/
+    /*В остальных строках прописываем путь шрифта, т. е. откуда его нужнно брать*/
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+ul{
+    list-style-type: square;
+}
