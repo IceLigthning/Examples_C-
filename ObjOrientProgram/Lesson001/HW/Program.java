@@ -7,7 +7,6 @@ public class Program {
 
     public static void main(String[] args) {
 
-        
         int a = 12;
 
 
@@ -18,6 +17,8 @@ public class Program {
         //product1.price = 125.15;
         System.out.println(product1.displayInfo());
 
+
+
         Product product2 = new Product("ООО Чистый Источник", "Бутылка с водой #2", -90.15);
         //product2.brand = "ООО Чистый Источник";
         //product2.name = "__";
@@ -25,26 +26,32 @@ public class Program {
         product2.setPrice(-30);
         System.out.println(product2.displayInfo());
 
+
+
         BottleOfWater bottleOfWater1 =
                 new BottleOfWater("ООО Чистый Источник", "Бутылка с водой #3", -90.15, 1.5);
         System.out.println(bottleOfWater1.displayInfo());
 
+
+
         Product bottleOfMilk
                 = new BottleOfMilk("ООО Чистый Источник", "Бутылка с молоком #1", -90.15, 1.5, 10);
-
         System.out.println(bottleOfMilk.displayInfo());
 
 
-        Chocolate flavor_chocolate_01 = new Chocolate();
-        flavor_chocolate_01.brand_1 = "ООО Мир конфет";
-        flavor_chocolate_01.name_1 = "Шоколад";
-        flavor_chocolate_01.price_1 = 75.7;
-        System.out.println(flavor_chocolate_01.displayInfo());
+
+        New_product chocolate1 = new New_product("ООО Евразийская сказка", "Горький шоколад", 50);
+        System.out.println(chocolate1.displayInfo());
 
 
-        Flavor_chocolate flavor_chocolate_02 
-            = new Flavor_chocolate("ООО Дары России", "Шоколад с карамелью", 100, 25);
-        System.out.println(flavor_chocolate_02.displayInfo());
+        Chocolate chocolate2 = 
+            new Chocolate("ООО  Северные сладости", "Карамельный шоколад", 75, 250);
+        System.out.println(chocolate2.displayInfo());
+
+        Chocolate chocolate3 = 
+            new Chocolate("ООО  Северные сладости", "Молочный шоколад с бананом", 150, 350);
+        System.out.println(chocolate3.displayInfo());
+
 
 
         List<Product> products = new ArrayList<>();
@@ -52,13 +59,18 @@ public class Program {
         products.add(product2);
         products.add(bottleOfWater1);
         products.add(bottleOfMilk);
-        products.add(flavor_chocolate_02);
 
 
-            
+
+        List<New_product> sweets = new ArrayList<>();
+        sweets.add(chocolate1);
+        sweets.add(chocolate2);
+        sweets.add(chocolate3);
 
 
-        VendingMachine vendingMachine = new VendingMachine(products);
+        VendingMachine vendingMachine = new VendingMachine(products, sweets);
+
+
         BottleOfWater bottleOfWaterResult = vendingMachine.getBottleOfWater(1.5);
         if (bottleOfWaterResult != null){
             System.out.println("Вы купили:");
@@ -68,18 +80,18 @@ public class Program {
             System.out.println("Такой бутылки с водой нет в автомате.");
         }
 
+        Chocolate chocolateResult = vendingMachine.getChocolate(350);
+        if (chocolateResult != null){
+            System.out.println("Вы купили:");
+            System.out.println(chocolateResult.displayInfo());
+        }
+        else {
+            System.out.println("Такого шоколада нет в автомате.");
+        }
+        
         
 
         
-        
-        
-        
-        
-
-        
-        
-        
-
     }
 
 }

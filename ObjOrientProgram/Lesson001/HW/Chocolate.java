@@ -1,35 +1,28 @@
 package Education_GeekBrains.ObjOrientProgram.Lesson001.HW;
 
-public class Chocolate {
+public class Chocolate extends New_product {
 
-    protected String name_1; // Наименование шоколада
-    protected String brand_1; // Бренд
-    protected double price_1; // Цена
-    
-    
-    private void checkPrice(double price_1){
-        if (price_1 <= 70){
-            this.price_1 = 80;
-        }
-        else {
-            this.price_1 = price_1;
-        }
+    private double calories; // Число калорий!
+
+    public double getСalories() {
+        return calories;
+    }
+
+    public void setСalories(int volume) {
+        this.calories = volume;
+    }
+
+    public Chocolate(String brand, String name, double price, double calories) {
+        super(brand, name, price);
+        this.calories = calories;
     }
 
 
-    public void setPrice(double price_1) {
-        checkPrice(price_1);
-    }
-    
-    
-
-    
-
-
-
-    
+    @Override
     public String displayInfo() {
-        return String.format("%s - %s - %f", brand_1, name_1, price_1);
+        return String.format("[Плитка шоколада] %s - %s - %f [калории: %f]", brand, name, price, calories);
     }
+
+
     
 }

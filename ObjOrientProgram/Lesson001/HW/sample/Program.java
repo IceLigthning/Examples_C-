@@ -1,6 +1,6 @@
 package Education_GeekBrains.ObjOrientProgram.Lesson001.HW.sample;
 
-import Education_GeekBrains.ObjOrientProgram.Lesson001.HW.Product;
+import ru.geekbrains.lesson1.Product;
 
 public class Program {
 
