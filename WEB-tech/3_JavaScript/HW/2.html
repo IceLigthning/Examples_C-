@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Приветсвие</h1>
+
+    <p>
+        Введите своё имя, и получите приветсвие!
+    </p>
+
+    <script language="JavaScript" scr="2.js"></script>
+
+    <script language="JavaScript">
+
+        let question = prompt("Здравствуйте, как вас зовут?");
+
+        function greeting(value) {
+            let mess;
+            if(value != '') {
+                mess = `Приветсвуем, ${value}!`;
+            }
+            else {
+                mess = `Вы ничего не ввели, приветсвия не будет!`;
+            }
+            alert(mess);
+        }
+
+        greeting(question);
+        
+
+</script>
+
+</body>
+</html>
