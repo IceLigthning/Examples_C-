@@ -8,8 +8,8 @@ public class Chocolate extends New_product {
         return calories;
     }
 
-    public void setСalories(int volume) {
-        this.calories = volume;
+    public void setСalories(int calories) {
+        this.calories = calories;
     }
 
     public Chocolate(String brand, String name, double price, double calories) {

@@ -1,6 +1,6 @@
 package Education_GeekBrains.ObjOrientProgram.Lesson002.HW;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements A_result{
 
     private final String name;
     private final int appetite;
@@ -29,5 +29,5 @@ public class Cat extends Animal {
 
     }
 
-    public void eat() { }
+    //public void eat() { }
 }
