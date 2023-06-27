@@ -7,6 +7,10 @@ public class Program {
         /*Создаём несколько объектов */
         //cat1 - указатель на объект!
         // и через переменную cat1  обращаемся к объекту 
+        /*Cat, Dog - это тоже конструктроры,
+         * они по цепочке вызывают конструктор
+         * базового типа!
+        */
         Cat cat1 = new Cat("Барсик");
         // выводим значение поля id!
         System.out.println(cat1.getId());
@@ -27,6 +31,11 @@ public class Program {
         Dog dog2 = new Dog("Бобик");
         System.out.println(dog2.getId());
 
+
+        System.out.printf("Было создано %d животных.\n", Animal.getCounter());
+        System.out.printf("Было создано %d котов.\n", Cat.getCatCounter());
+        System.out.printf("Было создано %d собак.\n", Dog.getDogCounter());
+
         /* Члены класса могут быть как статические,
          * так и нестатические!
          */
@@ -40,6 +49,7 @@ public class Program {
           */
           /*тут мы напрямую обращаемся к классу */
         Animal.identifier = 2;
+        
     }
     
 }

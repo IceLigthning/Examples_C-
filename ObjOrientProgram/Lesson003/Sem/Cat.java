@@ -2,6 +2,12 @@ package Education_GeekBrains.ObjOrientProgram.Lesson003.Sem;
 
 /*Это класс наследник */
 public class Cat extends Animal {
+
+
+    private static int catCounter;
+    public static int getCatCounter() {
+        return catCounter;
+    }
     
     //public Cat(String name, int maxSwim, int maxRun) {
     //    /**Super нужен для того, чтобы вызвать
@@ -25,5 +31,14 @@ public class Cat extends Animal {
     @Override
     void swim(int distance) {
     System.out.println(name + "не умеет плавать!\n");
+    }
+
+    {
+        System.out.println("Инициализатор Cat!");
+        catCounter++;
+    }
+    
+    static {
+        System.out.println("Static Инициализатор Cat!");
     }
 }

@@ -22,10 +22,21 @@ public abstract class Animal {
     /*для обращения к этому полю создание нового объекта
      * не требуется!
      */
-    public static int identifier = 1000;
+    /*Статический член класса не  живёт на объекте,
+     * он живёт на описателе объекта!
+     */
+    public static int identifier;
+
+    public static int counter;
+
+    public static int getCounter() {
+        return counter;
+    }
+
     public int getId() {
         return id;
     }
+
 
 
     // Эта хрень нужна, чтобы в какой-то момоент можно было прочитать значение полей
@@ -42,11 +53,34 @@ public abstract class Animal {
     }
 
 
+    // Инициализаторы
+    /*При добавлении блока инициализатора,
+     *он будет выполняться всегда при
+     *создании объекта, перед выполнение
+     конструктора!
+     */
+    {
+        System.out.println("Инициализатор!");
+        id = ++identifier;
+        counter++;
+    }
+
+
+    /*Статический инициализатор
+     * вызывается перед выполнение 
+     *  конструкторов
+     */
+    static {
+        System.out.println("Статический инициализатор!");
+        identifier = 1000;
+    }
+
+
     // Добавляем конструктор
     // для того, чтобы на основе полей можно было создать экземпляр класса
     // сразу проинициализировать, объявим правила 
     public Animal(String name, int maxSwim, int maxRun) {
-        id = ++identifier;
+        System.out.println("Конструктор!");
         this.name = name;
         this.maxSwim = maxSwim;
         this.maxRun = maxRun;
