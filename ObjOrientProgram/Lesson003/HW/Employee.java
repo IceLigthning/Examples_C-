@@ -1,6 +1,6 @@
 package Education_GeekBrains.ObjOrientProgram.Lesson003.HW;
 
-public abstract class Employer {
+public abstract class Employee implements Comparable<Employee> {
 
     protected String name;
     protected String surname;
@@ -22,7 +22,7 @@ public abstract class Employer {
     }
 
 
-    public Employer(String name, String surname, double salary) {
+    public Employee(String name, String surname, double salary) {
         this.name = name;
         this.surname = surname;
         this.salary = salary;
@@ -33,6 +33,18 @@ public abstract class Employer {
      * @return
      */
 
+     
      public abstract double calculateSalary();
+
+     @Override
+     public int compareTo(Employee o) {
+        int res = surname.compareTo(o.surname);
+        if(res == 0) {
+            return Double.compare(calculateSalary(), o.calculateSalary());
+        }
+        else {
+            return res;
+        }
+     }
     
 }
