@@ -9,11 +9,28 @@ public class Program {
 
     static Random random = new Random();
 
-    static Worker generateEmployer() {
-        String[] names = new String[] {"Ярослав", "Евгений", "Кирил"};
-        String[] surnames = new String[] {"Авдеев", "Багров", "Буслаев"};
-        int salary = random.nextInt(20000, 80000);
-        return new Worker(names[random.nextInt(names.length)], surnames[random.nextInt(surnames.length)], salary);
+    static Employee generateEmployer() {
+        String[] names = new String[] {"Ярослав", "Евгений", "Кирил", "Егор", "Влад", "Дмитрий"};
+        String[] surnames = new String[] {"Авдеев", "Багров", "Буслаев", "Пересыпкин", "Карпов", "Щеблинский"};
+        /**Зарплата работника на полной ставке */
+        int salary1 = random.nextInt(45000, 120000);
+
+
+        int quantityOfHours = random.nextInt(10, 400);
+        int hourlyCost = 500;
+        /**Расчёт оплаты труда фактически сделанной работы */
+        int salary2 = quantityOfHours * hourlyCost;
+
+        int typeOfWorker = random.nextInt(0, 2);
+        //return new Worker(names[random.nextInt(names.length)], surnames[random.nextInt(surnames.length)], salary);
+        
+        if (typeOfWorker == 0 ) {
+            return new Worker(names[random.nextInt(names.length)], surnames[random.nextInt(surnames.length)], salary1);
+        }
+        else {
+            return new Freelancer(names[random.nextInt(names.length)], surnames[random.nextInt(surnames.length)], salary2);
+        }
+        
     }
 
     public static void main(String[] args) {

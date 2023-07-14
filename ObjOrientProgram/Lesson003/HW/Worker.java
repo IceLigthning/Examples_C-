@@ -8,9 +8,10 @@ public class Worker extends Employee {
 
     @Override
     public double calculateSalary() {
-        return 0;
+        return salary;
     }
 
+    // Нужна для перевода исз 16-ричной в 10-ную систему
     @Override
     public String toString() {
         return String.format("%s %s; Рабочий; Среднемесячная заработная плата (фиксированная месячная оплата): %.2f (руб.)", 

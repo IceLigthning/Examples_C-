@@ -29,16 +29,17 @@ public abstract class Employee implements Comparable<Employee> {
     }
 
     /**
-     * Расчётсреднемесячной заработной платы
+     * Расчёт среднемесячной заработной платы
      * @return
      */
 
      
      public abstract double calculateSalary();
 
+     /* Сортировка по фамилии и зарплате */
      @Override
      public int compareTo(Employee o) {
-        int res = surname.compareTo(o.surname);
+        int res = name.compareTo(o.name);
         if(res == 0) {
             return Double.compare(calculateSalary(), o.calculateSalary());
         }
